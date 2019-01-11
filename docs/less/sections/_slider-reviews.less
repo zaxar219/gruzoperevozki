@@ -1,0 +1,73 @@
+
+#reviews-slider {
+	.owl-pagination {
+		position: absolute;
+		bottom: -66px;
+		width: 100%;
+		text-align: center;
+	}
+	.owl-page {
+
+		span {
+			border: 2px solid #000;
+
+		}
+	}
+
+	.active {
+
+
+		span {
+			background-color: #000;
+
+		}
+	}
+	
+	.owl-controls {
+		margin-top: 0;
+	}
+	
+	.owl-buttons {
+		
+		.owl-prev {
+			background-image: url('../img/icon/backwards.png');
+			width: 30px;
+			height: 50px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: rgba(78, 78, 78, 0.01);
+			position: absolute;
+			top: 60px;
+			left: 100px;
+			display: none;
+			
+			@media (min-width: 560px) {
+				left: 0;
+				display: inline-block;
+			}
+			@media (min-width: 768px) {
+				left: 50px;
+			}
+		}
+		.owl-next {
+			background-image: url('../img/icon/forward.png');
+			width: 30px;
+			height: 50px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-color: rgba(78, 78, 78, 0.01);
+			position: absolute;
+			top: 60px;
+			right: 100px;
+			display: none;
+			
+			@media (min-width: 560px) {
+				right: 0;
+				display: inline-block;
+			}
+			@media (min-width: 768px) {
+				right: 50px;
+			}
+		}
+	}
+}

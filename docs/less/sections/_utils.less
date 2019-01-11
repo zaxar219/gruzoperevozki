@@ -1,0 +1,58 @@
+/* 
+*box-sixing-model
+*/
+body {
+	font-family: "Exo 2";
+	min-width: 320px;
+}
+*:after {
+	box-sizing: border-box;
+}
+
+/*
+	*для отзывчевых изоброжений
+*/
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+	для вертикальноя полоски
+*/
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solit #ccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+/*
+	ограничить маштобирование окна для ввода текста 
+*/
+textarea {
+	resize: vertical;
+}
+
+/*
+	остановить обтикание и предотвращение схлопование
+*/
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.block {
+	background-color: green;
+	padding: 20px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 15px;
+}

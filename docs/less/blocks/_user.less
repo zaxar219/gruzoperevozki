@@ -1,0 +1,38 @@
+.user {
+	
+}
+.user__name {
+	font-size: 30px;
+	color: #000;
+	font-weight: 700;
+	display: inline;
+	margin-right: 15px;
+	
+	@media (min-width: 768px) {
+		font-size: 35px;
+	}
+	@media (min-width: 992px) {
+		margin-left: 8.33%;
+	}
+}
+.user__phon {
+	display: block;
+	font-size: 24px;
+	text-decoration: none;
+	color: #051eaa;
+	
+	
+	@media (min-width: 560px) {
+		display: inline;
+		border-bottom: 2px dotted #051eaa;
+		margin-bottom: 45px;
+	}
+	@media (min-width: 768px) {
+		font-size: 28px;
+	}
+	&:hover {
+		text-decoration: none;
+		border-bottom: 2px dotted #1e37c4;
+		color: #1e37c4;
+	}
+}

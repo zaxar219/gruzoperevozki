@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Грузоперевозки Федоровский ХМАО</title>
+
+	<!------точное описание страници-->
+	<meta name="description" content="Грузоперевозки Федоровский ХМАО">
+
+	<!------общее описание страници-->
+	<meta name="keywords" content="город,Сургут,поселок,Федоровский,грузоперевозки,эвакуатор,заказать,грузовую,газель">
+
+	<!------для адоптивной верстки	-------->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-----чтобы браузер internet explorer использовал свою последнею версию------->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-----нормалайс и стили-->
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
+	<!--	<link rel="stylesheet" href="css/normalize.css">-->
+	<link rel="stylesheet" href="css/main.css">
+	<!---------шрифты------------->
+	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700|Exo+2" rel="stylesheet">
+	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+	<!--	<link rel="stylesheet" href="libs/exo2.otf">-->
+	<!--------Карусель---------->
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css">
+	<!--------favicons	-------->
+	<link rel="icon" href="img/favicons/den-icon.jpg">
+	<!-----------Модальное окно------------->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+</head>
+
+<body>
+	<!--- header --->
+	<header id="top" class="header" style="background-image: url(img/background/head.png)">
+		<div class="section">
+<!--			<a href="#" class="logo">-->
+<!--				<img src="img/logo/logo.png" alt="i">-->
+<!--				<img src="http://x-lines.ru/letters/i/cyrillicbasic/0535/0b0d46/28/0/4n37dygtoxemxwf64n97bpqtodemmwf14n9pbp6ozmemo.png">-->
+<!--			</a>-->
+			<nav class="navigation">
+				<div class="clearfix"></div>
+				<div id="navigation-toggle" class="navigation__toggle-button"></div>
+				<ul class="navigation__list">
+					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#top">Главная</a></li>
+					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#avto">Авто и грузчики</a></li>
+					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#company">О нашей компании</a></li>
+					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#goblin">Отзывы</a></li>
+					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#contacts">Контакты</a></li>
+				</ul>
+			</nav>
+			<div class="clearfix"></div>
+			<h1 class="header__headline">грузоперевозки федоровский хмао</h1>
+			<p class="header__tagline">
+				мы перевезем быстро и легко и можем очень долеко
+			</p>
+			<!--Модальное окно-->
+			<div id="ex1" class="modal">
+				<form id="contact-form" class="contact-form" action="php/mail.php" method="POST">
+					<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="Мои сайт грузоперевозок">
+						<input type="hidden" name="form_from" value="admin@zakhar.zzz.com.ua">
+						<input type="hidden" name="admin_email" value="zaxar219@mail.ru">
+						<input type="hidden" name="form_subject" value="Сообщение с сайта">
+					<!-- END Hidden Required Fields -->
+						<input type="text" class="contact-form__input" name="name" placeholder="Имя">
+						<input type="text" class="contact-form__input" name="email" placeholder="Email">
+						
+						<biv class="clearfix">
+							<input type="text" class="contact-form__input contact-form__input--half-width" name="phone" placeholder="Телефон">
+						</biv>
+						<input type="submit" class="contact-form__submit" value="Отправить">
+				</form>
+			</div>
+			<!--//Модальное окно-->
+			<a class="botton" href="#ex1" rel="modal:open">Оформить заявку</a>
+		</div>
+	</header>
+	<!--- //header --->
+	<!--- services --->
+	<div class="section" id="avto">
+		<div class="services">
+			<h2 class="services__headline">авто и грузчики</h2>
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-5 col-md-offset-1">
+					<div class="car_photo" style="background-image: url('./img/car-photo/gazelle.png')">
+<!--						<img class="car_photo-img" src="img/car-photo/gazelle.png" alt="Фотография автомобиля">-->
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="services__content">
+						<p class="services__content-scroll services__content-scroll--icon-1">Mодель - Газель</p>
+						<p class="services__content-scroll services__content-scroll--icon-2">Грузопольемность - 2 тонны</p>
+						<p class="services__content-scroll services__content-scroll--icon-3 services__content-scroll--m-b-0">Высота кузова - 185 см (1,85 м)</p>
+						<p class="services__content-scroll services__content-scroll--m-l-32">Длина кузова - 420 см (4,2 м)</p>
+						<p class="services__content-scroll services__content-scroll--icon-4">Длина груза до 6 метров</p>
+						<p class="services__content-scroll services__content-scroll--icon-attention">Возможен перевоз груз 200</p>
+						<p class="services__content-scroll services__content-scroll--icon-money">500 р в час</p>
+					</div>
+				</div>
+			</div>
+			<!-- //row -->
+			<!-- user -->
+			<div class="user">
+				<p class="user__name">Захаров Денис:</p>
+				<a href="#" class="user__phon"><i class="fa fa-phone"></i>+7 904 471 72 02</a>
+			</div>
+			<!-- //user -->
+			<!-- movers -->
+			<div class="movers">
+				<div class="row">
+					<div class="col-sm-5 col-md-offset-1">
+						<div class="movers__icon" style="background-image: url('./img/icon/movers.png')"></div>
+					</div>
+					<div class="col-sm-5">
+						<div class="movers__description">
+							<p class="movers__description-scroll movers__description-scroll--min-ok movers__description-scroll--m-b-0">Крепкие и порядочные парни доставят</p>
+							<p class="movers__description-scroll movers__description-scroll--m-l-32">ваш груз в целостности и сохранностиc</p>
+							<p class="movers__description-scroll movers__description-scroll--money">500 р в час</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //movers -->
+			<!-- partners -->
+			<h3 class="stub-partners">Партнеры</h3>
+			<div class="partners">
+				<div class="row">
+					<div class="col-sm-5 col-md-offset-1">
+						<div class="partners__icon" style="background-image: url('./img/icon/tow_truck.png')"></div>
+					</div>
+					<div class="col-sm-5">
+						<div class="partners__description">
+							<p class="partners__description-scroll partners__description-scroll--icon partners__description-scroll--m-b-0">Наши партнёры готовы</p> <p class="partners__description-scroll partners__description-scroll--m-l-32">прийти к Вам в трудную минуту.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- //partners -->
+		</div>
+	</div>
+	<!--- //services --->
+	<!--- advantage --->
+	<div class="advantage" id="company" style="background-image: url('./img/background/transport-fon.png')">
+		<div class="section">
+			<div class="advantage__name">О нашей компании</div>
+			<div class="row">
+				<!-- card 1-->
+				<div class="col-sm-3">
+					<div class="advantage__icon" style="background-image: url('./img/icon/big-ok.png')"></div>
+					<p class="advantage__title">Качество</p>
+					<p class="advantage__description">скорость нашей работы, никак не влияет на качество</p>
+				</div>
+				<!-- //card 1-->
+				<!-- card 2-->
+				<div class="col-sm-3">
+					<div class="advantage__icon" style="background-image: url('./img/icon/steering-wheel.png')"></div>
+					<p class="advantage__title">Профессионализм</p>
+					<p class="advantage__description">водительский стаж составляет более 15 лет</p>
+				</div>
+				<!-- //card 2-->
+				<!-- card 3-->
+				<div class="col-sm-3">
+					<div class="advantage__icon" style="background-image: url('./img/icon/car.png')"></div>
+					<p class="advantage__title">Небольшие сроки</p>
+					<p class="advantage__description">Мы делаем все возможное, чтобы Ваш груз доставить в найлучшие сроки</p>
+				</div>
+				<!-- //card 3-->
+				<!-- card 4-->
+				<div class="col-sm-3">
+					<div class="advantage__icon" style="background-image: url('./img/icon/price.png')"></div>
+					<p class="advantage__title">Приемливая цена</p>
+					<p class="advantage__description">Мы не ставим большие цены, ведь нам лишнего не надо</p>
+				</div>
+				<!-- //card 4-->
+			</div>
+		</div>
+	</div>
+	<!--- //advantage --->
+	<!--- reviews --->
+	<div class="reviews" id="goblin">
+		<div class="section">
+			<h3 class="reviews__headline">Отзывы наших клиентов</h3>
+			<div id="reviews-slider" class="owl-carousel">
+				<!-- slider 1 -->
+				<div class="reviews__slider">
+					<div class="reviews__slider-title">
+						Королев Сергей
+					</div>
+					<div class="reviews__slider-description">
+						Все понравилось, быстрая доставка, приятные в общении люди, груз был доставлен в сохранности.
+					</div>
+				</div>
+				<!-- //slider 1 -->
+				<!-- slider 2 -->
+				<div class="reviews__slider">
+					<div class="reviews__slider-title">
+						Королев Сергей
+					</div>
+					<div class="reviews__slider-description">
+						Все понравилось, быстрая доставка, приятные в общении люди, груз был доставлен в сохранности.
+					</div>
+				</div>
+				<!-- //slider 2 -->
+				<!-- slider 3 -->
+				<div class="reviews__slider">
+					<div class="reviews__slider-title">
+						Королев Сергей
+					</div>
+					<div class="reviews__slider-description">
+						Все понравилось, быстрая доставка, приятные в общении люди, груз был доставлен в сохранности.
+					</div>
+				</div>
+				<!-- //slider 3 -->
+				<!-- slider 4 -->
+				<div class="reviews__slider">
+					<div class="reviews__slider-title">
+						Королев Сергей
+					</div>
+					<div class="reviews__slider-description">
+						Все понравилось, быстрая доставка, приятные в общении люди, груз был доставлен в сохранности.
+					</div>
+				</div>
+				<!-- //slider 4 -->
+				<!-- slider 5 -->
+				<div class="reviews__slider">
+					<div class="reviews__slider-title">
+						Королев Сергей
+					</div>
+					<div class="reviews__slider-description">
+						Все понравилось, быстрая доставка, приятные в общении люди, груз был доставлен в сохранности.
+					</div>
+				</div>
+				<!-- //slider 5 -->
+			</div>
+		</div>
+	</div>
+	<!--- //reviews --->
+	<!--- footer --->
+	<footer class="footer" id="contacts">
+		<div class="section">
+			<div class="row">
+				<div class="col-md-4">
+					<a href="#" class="logo">
+						<img src="http://x-lines.ru/letters/i/cyrillicbasic/0535/0b0d46/28/0/4n37dygtoxemxwf64n97bpqtodemmwf14n9pbp6ozmemo.png">
+					</a>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<nav class="footer__navigation">
+						<ul class="footer__list">
+							<li class="footer__list-li">Навигация</li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#">Главная</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#">Авто и грузчики</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#">О нашей компании</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#">Отзывы</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<div class="footer__contacts">
+						<ul class="footer__list">
+							<li class="footer__list-li">Контакты</li>
+							<li class="footer__list-li">Захаров Денис</li>
+							<li class="footer__list-li">Телефон:<a class="footer__list-li-link footer__list-li-link--m-l-10" href="#">+7 904 471 72 02</a></li>
+							<li class="footer__list-li">Email:<a class="footer__list-li-link footer__list-li-link--m-l-10" href="mailyan:deniszaharof80@gmail.com">deniszaharof80@gmail.com</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</footer>
+	<!--- //footer --->
+	<script src="libs/jquery/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
+<!-- -->

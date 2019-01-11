@@ -1,0 +1,74 @@
+.partners {
+	
+}
+.partners__icon {
+	width: 270px;
+	height: 82px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin-bottom: 30px;
+	
+	@media (min-width: 560px) {
+		width: 455px;
+		height: 140px;
+	}
+	@media (min-width: 768px) {
+		width: 265px;
+		height: 83px;
+		margin-bottom: 0;
+	}
+	@media (min-width: 992px) {
+		width: 356px;
+		height: 109px;
+	}
+	@media (min-width: 1200px) {
+		width: 410px;
+		height: 128px;
+	}
+	@media (min-width: 1400px) {
+		width: 455px;
+		height: 140px;
+	}
+}
+.partners__description {
+	
+}
+.partners__description-scroll {
+	font-size: 13px;
+	color: #000;
+	
+	@media (min-width: 560px) {
+		font-size: 24px;
+	}
+	@media (min-width: 768px) {
+		font-size: 12px;
+		margin-bottom: 13px;
+	}
+	@media (min-width: 992px) {
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	@media (min-width: 1200px) {
+		font-size: 24px;
+		margin-bottom: 30px;
+	}
+	&--icon {
+		&:before {
+			content: "";
+			display: inline-block;
+			background-image: url('../img/icon/handshake.png');
+			width: 28px;
+			height: 28px;
+			background-repeat: no-repeat;
+			background-position: center;
+			margin-right: 10px;
+		}
+	}
+	&--m-b-0 {
+		margin-bottom: 0;
+	}
+	&--m-l-32 {
+		margin-left: 38px;
+	}
+}
