@@ -4,37 +4,39 @@
 	<meta charset="UTF-8">
 	<title>Грузоперевозки Федоровский ХМАО</title>
 
-	<!------точное описание страници-->
-	<meta name="description" content="Грузоперевозки Федоровский ХМАО">
+	<!-- точное описание страници -->
+	<meta name="description" content="Грузоперевозки по поселку Федоровский Сургутского района а также в другие регионы страны. У нас выгодные цены, бережное отношение к грузу и индивидуальный подход к каждому клиенту.">
 
-	<!------общее описание страници-->
-	<meta name="keywords" content="город,Сургут,поселок,Федоровский,грузоперевозки,эвакуатор,заказать,грузовую,газель">
+	<!-- общее описание страници -->
+	<meta name="keywords" content="Сургут,поселок Федоровский грузоперевозки,эвакуатор,заказать,грузовая,газель">
 
-	<!------для адоптивной верстки	-------->
+	<!-- для адоптивной верстки -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-	<!-----чтобы браузер internet explorer использовал свою последнею версию------->
+	<!-- чтобы браузер internet explorer использовал свою последнею версию -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<!-----нормалайс и стили-->
+	<!-- нормалайс и стили -->
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
 	<!--	<link rel="stylesheet" href="css/normalize.css">-->
 	<link rel="stylesheet" href="css/main.css">
-	<!---------шрифты------------->
-	<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:700|Exo+2" rel="stylesheet">
+	<!-- шрифты -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	
+	<link href="https://fonts.googleapis.com/css?family=Exo+2:400,700" rel="stylesheet">
 	<link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
-	<!--	<link rel="stylesheet" href="libs/exo2.otf">-->
-	<!--------Карусель---------->
+<!--	<link rel="stylesheet" href="libs/exo2.css">-->
+	<!-- Карусель -->
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css">
 	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.css">
-	<!--------favicons	-------->
-	<link rel="icon" href="img/favicons/den-icon.jpg">
-	<!-----------Модальное окно------------->
+	<!-- favicons -->
+	<link rel="icon" href="img/favicon/den-icon.jpg">
+	<!-- Модальное окно -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
 </head>
 
 <body>
-	<!--- header --->
-	<header id="top" class="header" style="background-image: url(img/background/head.png)">
+	<!-- header -->
+	<header id="top" class="header" style="background-image: url('./img/background/road.jpg')">
 		<div class="section">
 <!--			<a href="#" class="logo">-->
 <!--				<img src="img/logo/logo.png" alt="i">-->
@@ -45,7 +47,7 @@
 				<div id="navigation-toggle" class="navigation__toggle-button"></div>
 				<ul class="navigation__list">
 					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#top">Главная</a></li>
-					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#avto">Авто и грузчики</a></li>
+					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#avto">Услуги</a></li>
 					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#company">О нашей компании</a></li>
 					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#goblin">Отзывы</a></li>
 					<li class="navigation__list-element"><a class="navigation__list-element-link" href="#contacts">Контакты</a></li>
@@ -54,46 +56,50 @@
 			<div class="clearfix"></div>
 			<h1 class="header__headline">грузоперевозки федоровский хмао</h1>
 			<p class="header__tagline">
-				мы перевезем быстро и легко и можем очень долеко
+				мы перевезем быстро и легко и можем очень далеко
 			</p>
-			<!--Модальное окно-->
+			<!-- Модальное окно -->
 			<div id="ex1" class="modal">
+				<div class="modal__headline">
+					Внимание
+				</div>
 				<form id="contact-form" class="contact-form" action="php/mail.php" method="POST">
+					<div class="modal__text">
+						Оставьте нам ваши контактные данные<br>и мы свяжемся с вами для уточнения деталей
+					</div>
+				
 					<!-- Hidden Required Fields -->
 						<input type="hidden" name="project_name" value="Мои сайт грузоперевозок">
-						<input type="hidden" name="form_from" value="admin@zakhar.zzz.com.ua">
-						<input type="hidden" name="admin_email" value="zaxar219@mail.ru">
+						<input type="hidden" name="form_from" value="admin@gruzden.ru">
+						<input type="hidden" name="admin_email" value="deniszaharof80@gmail.com">
 						<input type="hidden" name="form_subject" value="Сообщение с сайта">
 					<!-- END Hidden Required Fields -->
-						<input type="text" class="contact-form__input" name="name" placeholder="Имя">
-						<input type="text" class="contact-form__input" name="email" placeholder="Email">
-						
-						<biv class="clearfix">
-							<input type="text" class="contact-form__input contact-form__input--half-width" name="phone" placeholder="Телефон">
-						</biv>
-						<input type="submit" class="contact-form__submit" value="Отправить">
+						<input type="text" class="contact-form__input" name="name" placeholder="Имя обязательно">
+						<input type="text" class="contact-form__input" name="email" placeholder="Email не обязательно">
+						<input type="text" class="contact-form__input" name="phone" placeholder="Телефон обязательно">
+						<input type="submit" class="contact-form__submit" value="Оставить заявку">
 				</form>
+				<div id="answer"></div>
 			</div>
 			<!--//Модальное окно-->
-			<a class="botton" href="#ex1" rel="modal:open">Оформить заявку</a>
+			<a class="botton" href="#ex1" rel="modal:open">Оформить заявку</a>	
 		</div>
 	</header>
-	<!--- //header --->
-	<!--- services --->
+	<!-- //header -->
+	<!-- services -->
 	<div class="section" id="avto">
 		<div class="services">
-			<h2 class="services__headline">авто и грузчики</h2>
+			<h2 class="services__headline">Услуги</h2>
 			<!-- row -->
 			<div class="row">
 				<div class="col-md-5 col-md-offset-1">
 					<div class="car_photo" style="background-image: url('./img/car-photo/gazelle.png')">
-<!--						<img class="car_photo-img" src="img/car-photo/gazelle.png" alt="Фотография автомобиля">-->
 					</div>
 				</div>
 				<div class="col-md-5">
 					<div class="services__content">
 						<p class="services__content-scroll services__content-scroll--icon-1">Mодель - Газель</p>
-						<p class="services__content-scroll services__content-scroll--icon-2">Грузопольемность - 2 тонны</p>
+						<p class="services__content-scroll services__content-scroll--icon-2">Грузоподъемность - 2 тонны</p>
 						<p class="services__content-scroll services__content-scroll--icon-3 services__content-scroll--m-b-0">Высота кузова - 185 см (1,85 м)</p>
 						<p class="services__content-scroll services__content-scroll--m-l-32">Длина кузова - 420 см (4,2 м)</p>
 						<p class="services__content-scroll services__content-scroll--icon-4">Длина груза до 6 метров</p>
@@ -106,7 +112,7 @@
 			<!-- user -->
 			<div class="user">
 				<p class="user__name">Захаров Денис:</p>
-				<a href="#" class="user__phon"><i class="fa fa-phone"></i>+7 904 471 72 02</a>
+				<a href="tel:+79044717202" class="user__phon"><i class="fa fa-phone"></i>+7 (9044) 71 72 02</a>
 			</div>
 			<!-- //user -->
 			<!-- movers -->
@@ -118,7 +124,7 @@
 					<div class="col-sm-5">
 						<div class="movers__description">
 							<p class="movers__description-scroll movers__description-scroll--min-ok movers__description-scroll--m-b-0">Крепкие и порядочные парни доставят</p>
-							<p class="movers__description-scroll movers__description-scroll--m-l-32">ваш груз в целостности и сохранностиc</p>
+							<p class="movers__description-scroll movers__description-scroll--m-l-32">ваш груз в целостности и сохранности</p>
 							<p class="movers__description-scroll movers__description-scroll--money">500 р в час</p>
 						</div>
 					</div>
@@ -142,8 +148,8 @@
 			<!-- //partners -->
 		</div>
 	</div>
-	<!--- //services --->
-	<!--- advantage --->
+	<!-- //services -->
+	<!-- advantage -->
 	<div class="advantage" id="company" style="background-image: url('./img/background/transport-fon.png')">
 		<div class="section">
 			<div class="advantage__name">О нашей компании</div>
@@ -179,8 +185,8 @@
 			</div>
 		</div>
 	</div>
-	<!--- //advantage --->
-	<!--- reviews --->
+	<!-- //advantage -->
+	<!-- reviews -->
 	<div class="reviews" id="goblin">
 		<div class="section">
 			<h3 class="reviews__headline">Отзывы наших клиентов</h3>
@@ -236,26 +242,54 @@
 				</div>
 				<!-- //slider 5 -->
 			</div>
+				<!-- Модальное окно -->
+			<div id="modal-reviews" class="modal">
+				<div class="modal__name">
+					Отзывы и предложения
+				</div>
+				<form id="modal-form" class="contact-form" action="php/mail.php" method="POST">
+					<div class="modal-reviews__headline">
+						Оставте свой отзыв о нашей работе или предложение по улучьшению нашего сервиса.
+					</div>
+					<div class="modal-reviews__headline">
+						Мы учтем все ваши пожелания!
+					</div>
+				<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="Комментарии к моему сайту">
+					<input type="hidden" name="form_from" value="admin@gruzden.ru">
+					<input type="hidden" name="admin_email" value="deniszaharof80@gmail.com">
+					<input type="hidden" name="form_subject" value="Сообщение с сайта комментарий пользователя">
+				<!-- END Hidden Required Fields -->
+					<input type="text" class="modal__input" name="name" placeholder="Ф.И.О.">
+					<textarea class="modal__textarea" placeholder="Ваше сообщение" name="massage"></textarea>
+					<input type="submit" class="modal__submit" value="Оставить комментарий">
+				</form>
+				
+			</div>
+<!--			//Модальное окно -->
+			<a class="botton__reviews" href="#modal-reviews" rel="modal:open">Оставить отзыв</a>
 		</div>
 	</div>
-	<!--- //reviews --->
-	<!--- footer --->
+	<!-- //reviews -->
+	<!-- footer -->
 	<footer class="footer" id="contacts">
 		<div class="section">
 			<div class="row">
 				<div class="col-md-4">
+<!--
 					<a href="#" class="logo">
 						<img src="http://x-lines.ru/letters/i/cyrillicbasic/0535/0b0d46/28/0/4n37dygtoxemxwf64n97bpqtodemmwf14n9pbp6ozmemo.png">
 					</a>
+-->
 				</div>
 				<div class="col-sm-6 col-md-3">
 					<nav class="footer__navigation">
 						<ul class="footer__list">
 							<li class="footer__list-li">Навигация</li>
-							<li class="footer__list-li"><a class="footer__list-li-link" href="#">Главная</a></li>
-							<li class="footer__list-li"><a class="footer__list-li-link" href="#">Авто и грузчики</a></li>
-							<li class="footer__list-li"><a class="footer__list-li-link" href="#">О нашей компании</a></li>
-							<li class="footer__list-li"><a class="footer__list-li-link" href="#">Отзывы</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#top">Главная</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#avto">Услуги</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#company">О нашей компании</a></li>
+							<li class="footer__list-li"><a class="footer__list-li-link" href="#goblin">Отзывы</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -264,8 +298,14 @@
 						<ul class="footer__list">
 							<li class="footer__list-li">Контакты</li>
 							<li class="footer__list-li">Захаров Денис</li>
-							<li class="footer__list-li">Телефон:<a class="footer__list-li-link footer__list-li-link--m-l-10" href="#">+7 904 471 72 02</a></li>
-							<li class="footer__list-li">Email:<a class="footer__list-li-link footer__list-li-link--m-l-10" href="mailyan:deniszaharof80@gmail.com">deniszaharof80@gmail.com</a></li>
+							<li class="footer__list-li">Телефон:<a class="footer__list-li-link footer__list-li-link--m-l-10" href="tel:+79044717202">+7 (9044) 71 72 02</a></li>
+							<li class="footer__list-li">Email:<a class="footer__list-li-link footer__list-li-link--m-l-10" href="mailto:deniszaharof80@gmail.com" target="_blank">deniszaharof80@gmail.com</a></li>
+							<li class="footer__list-li">
+								<a class="footer__list-li-link footer__list-li-link--social" href="https://vk.com/id477313259" target="_blank"><i class="fab fa-vk"></i></a>
+								<a class="footer__list-li-link footer__list-li-link--social" href="https://ok.ru/profile/559263555966" target="_blank"><i class="fab fa-odnoklassniki"></i></a>
+								<a class="footer__list-li-link footer__list-li-link--social" href="https://api.whatsapp.com/send?phone=79044712876" target="_blank"><i class="fab fa-whatsapp"></i>
+								</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -273,13 +313,14 @@
 			</div>
 		</div>
 	</footer>
-	<!--- //footer --->
+	<!-- //footer -->
 	<script src="libs/jquery/jquery.min.js"></script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+	<script src="libs/pagescroll2id/jquery.malihu.PageScroll2id.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/jquery.validate/jquery.validate.js"></script>
 
 	<script src="js/main.js"></script>
 </body>
 </html>
-<!-- -->
